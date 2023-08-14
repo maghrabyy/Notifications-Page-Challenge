@@ -2,11 +2,11 @@ import PropTypes from 'prop-types';
 
 const NotificationBox = props =>{
     return (
-        <div onClick={props.clicked} className={"not-box cursor-pointer flex items-center gap-3 rounded-lg px-3 py-2 my-3 mx-4 " + (props.isUnread? "bg-fm-lightGrayishBlue1 shadow-md" : null)}>
-            <div className="not-userImg self-start">
+        <div onClick={props.clicked} className={"not-box cursor-pointer grid sm:grid-cols-10 grid-cols-12 gap-3 items-center rounded-lg px-3 py-2 my-3 mx-4 " + (props.isUnread? "bg-fm-lightGrayishBlue1 shadow-md" : null)}>
+            <div className="not-userImg self-start sm:col-span-1 col-span-2">
                 <img src={props.pImg} className="w-14" alt=""/>
             </div>
-            <div className="not-details">
+            <div className="not-details col-span-8">
                 <div className="not-msg">
                     <span className="userName font-bold hover:text-blue-900">
                         {props.pName} 
@@ -30,7 +30,7 @@ const NotificationBox = props =>{
             </div>
             {
                 props.notType === 'picComment' ?
-                    <img src={props.commentedPic} className='inline-block w-12 ms-auto' alt="" />
+                    <img src={props.commentedPic} className='inline-block w-12 ms-auto sm:col-span-1 col-span-2' alt="" />
                     : null
             }
      </div>

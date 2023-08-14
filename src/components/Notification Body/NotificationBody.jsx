@@ -41,7 +41,7 @@ const NotificationBody = () =>{
     }
     
     return (
-        <div className="not-body md:rounded-lg p-3 shadow-md md:w-7/12 bg-white font-plusJakarta">
+        <div className="not-body sm:rounded-lg p-3 shadow-md md:w-7/12 sm:w-9/12 bg-white font-plusJakarta">
             <NotificationHeader
                 unreadCount={state.notifyCounter}
                 clicked={markAllAsReadhandler}
