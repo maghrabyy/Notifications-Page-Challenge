@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const NotificationBox = props =>{
     return (
-        <div onClick={props.clicked} className={"not-box cursor-pointer flex items-center gap-3 rounded-lg px-3 py-2 my-3 mx-4 " + (props.isUnread? "bg-blue-100 shadow-md" : null)}>
+        <div onClick={props.clicked} className={"not-box cursor-pointer flex items-center gap-3 rounded-lg px-3 py-2 my-3 mx-4 " + (props.isUnread? "bg-fm-lightGrayishBlue1 shadow-md" : null)}>
             <div className="not-userImg self-start">
                 <img src={props.pImg} className="w-14" alt=""/>
             </div>
@@ -21,7 +21,7 @@ const NotificationBox = props =>{
                 </div>
                 {
                 props.notType === 'sentPM'?
-                <div className="pmContent text-gray-600 p-3 bg-blue-200 rounded-md mt-2">
+                <div className="pmContent text-gray-600 p-3 border-fm-veryLightGrayishBlue border-2 hover:bg-fm-lightGrayishBlue2 hover:border-fm-lightGrayishBlue2 rounded-md mt-2">
                     {props.pmContent}
                 </div>
                 :
