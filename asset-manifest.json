@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Notifications-Page-Challenge/static/css/main.465ab33f.css",
-    "main.js": "/Notifications-Page-Challenge/static/js/main.2f0f1158.js",
+    "main.css": "/Notifications-Page-Challenge/static/css/main.fec03513.css",
+    "main.js": "/Notifications-Page-Challenge/static/js/main.e00fb6ec.js",
     "static/js/787.8f2f970a.chunk.js": "/Notifications-Page-Challenge/static/js/787.8f2f970a.chunk.js",
     "static/media/avatar-rizky-hasanuddin.webp": "/Notifications-Page-Challenge/static/media/avatar-rizky-hasanuddin.2c9e9a5d4982e8f1b614.webp",
     "static/media/avatar-jacob-thompson.webp": "/Notifications-Page-Challenge/static/media/avatar-jacob-thompson.ef1880754355ebe956bb.webp",
@@ -12,12 +12,12 @@
     "static/media/avatar-kimberly-smith.webp": "/Notifications-Page-Challenge/static/media/avatar-kimberly-smith.00520dc2b2f8e585aac5.webp",
     "static/media/avatar-angela-gray.webp": "/Notifications-Page-Challenge/static/media/avatar-angela-gray.be3397e8fa98e1cac926.webp",
     "index.html": "/Notifications-Page-Challenge/index.html",
-    "main.465ab33f.css.map": "/Notifications-Page-Challenge/static/css/main.465ab33f.css.map",
-    "main.2f0f1158.js.map": "/Notifications-Page-Challenge/static/js/main.2f0f1158.js.map",
+    "main.fec03513.css.map": "/Notifications-Page-Challenge/static/css/main.fec03513.css.map",
+    "main.e00fb6ec.js.map": "/Notifications-Page-Challenge/static/js/main.e00fb6ec.js.map",
     "787.8f2f970a.chunk.js.map": "/Notifications-Page-Challenge/static/js/787.8f2f970a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.465ab33f.css",
-    "static/js/main.2f0f1158.js"
+    "static/css/main.fec03513.css",
+    "static/js/main.e00fb6ec.js"
   ]
 }
